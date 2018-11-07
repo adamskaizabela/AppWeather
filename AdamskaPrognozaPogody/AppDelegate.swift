@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  AdamskaPrognozaPogody
 //
-//  Created by Student on 10.10.2018.
+//  Created by iza on 10.10.2018.
 //  Copyright © 2018 ITIK. All rights reserved.
 //
 

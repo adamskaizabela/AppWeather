@@ -9,9 +9,12 @@
 /* Begin PBXBuildFile section */
 		2B409507217CA1E1001F822C /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B409506217CA1E1001F822C /* DownloadService.swift */; };
 		2B409509217CA3F0001F822C /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B409508217CA3F0001F822C /* WeatherData.swift */; };
+		3F0F28972193299B004F511B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F28962193299B004F511B /* DetailViewController.swift */; };
+		3F0F2899219329A6004F511B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F2898219329A6004F511B /* SearchViewController.swift */; };
+		3F0F289B219329B2004F511B /* CustomSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F289A219329B2004F511B /* CustomSplitViewController.swift */; };
+		3F0F289E21932B92004F511B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F289D21932B92004F511B /* Main.storyboard */; };
 		3F11FE3B216E31120003C8A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11FE3A216E31120003C8A4 /* AppDelegate.swift */; };
-		3F11FE3D216E31120003C8A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11FE3C216E31120003C8A4 /* ViewController.swift */; };
-		3F11FE40216E31120003C8A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F11FE3E216E31120003C8A4 /* Main.storyboard */; settings = {ASSET_TAGS = (label, ); }; };
+		3F11FE3D216E31120003C8A4 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11FE3C216E31120003C8A4 /* MasterViewController.swift */; };
 		3F11FE42216E31130003C8A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F11FE41216E31130003C8A4 /* Assets.xcassets */; };
 		3F11FE45216E31130003C8A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F11FE43216E31130003C8A4 /* LaunchScreen.storyboard */; };
 		3F11FE50216E31130003C8A4 /* AdamskaPrognozaPogodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F11FE4F216E31130003C8A4 /* AdamskaPrognozaPogodyTests.swift */; };
@@ -38,10 +41,13 @@
 /* Begin PBXFileReference section */
 		2B409506217CA1E1001F822C /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
 		2B409508217CA3F0001F822C /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		3F0F28962193299B004F511B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "../../../../Downloads/AppWeather-master/AdamskaPrognozaPogody/Views/DetailViewController.swift"; sourceTree = "<group>"; };
+		3F0F2898219329A6004F511B /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = "../../../../Downloads/AppWeather-master/AdamskaPrognozaPogody/Views/SearchViewController.swift"; sourceTree = "<group>"; };
+		3F0F289A219329B2004F511B /* CustomSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSplitViewController.swift; path = "../../../../Downloads/AppWeather-master/AdamskaPrognozaPogody/Components/CustomSplitViewController.swift"; sourceTree = "<group>"; };
+		3F0F289D21932B92004F511B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3F11FE37216E31120003C8A4 /* AdamskaPrognozaPogody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdamskaPrognozaPogody.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F11FE3A216E31120003C8A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F11FE3C216E31120003C8A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F11FE3F216E31120003C8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F11FE3C216E31120003C8A4 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		3F11FE41216E31130003C8A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F11FE44216E31130003C8A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F11FE46216E31130003C8A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +84,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F0F28902193289F004F511B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3F0F2891219328BE004F511B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F289A219329B2004F511B /* CustomSplitViewController.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3F0F2893219328D6004F511B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2B409506217CA1E1001F822C /* DownloadService.swift */,
+				2B409508217CA3F0001F822C /* WeatherData.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3F0F2894219328E0004F511B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F11FE3C216E31120003C8A4 /* MasterViewController.swift */,
+				3F0F28962193299B004F511B /* DetailViewController.swift */,
+				3F0F2898219329A6004F511B /* SearchViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3F11FE2E216E31120003C8A4 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +141,15 @@
 		3F11FE39216E31120003C8A4 /* AdamskaPrognozaPogody */ = {
 			isa = PBXGroup;
 			children = (
+				3F0F2894219328E0004F511B /* Views */,
+				3F0F2893219328D6004F511B /* Services */,
+				3F0F2891219328BE004F511B /* Components */,
+				3F0F28902193289F004F511B /* Cell */,
 				3F11FE3A216E31120003C8A4 /* AppDelegate.swift */,
-				3F11FE3C216E31120003C8A4 /* ViewController.swift */,
-				3F11FE3E216E31120003C8A4 /* Main.storyboard */,
 				3F11FE41216E31130003C8A4 /* Assets.xcassets */,
 				3F11FE43216E31130003C8A4 /* LaunchScreen.storyboard */,
 				3F11FE46216E31130003C8A4 /* Info.plist */,
-				2B409506217CA1E1001F822C /* DownloadService.swift */,
-				2B409508217CA3F0001F822C /* WeatherData.swift */,
+				3F0F289D21932B92004F511B /* Main.storyboard */,
 			);
 			path = AdamskaPrognozaPogody;
 			sourceTree = "<group>";
@@ -238,9 +279,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0F289E21932B92004F511B /* Main.storyboard in Resources */,
 				3F11FE45216E31130003C8A4 /* LaunchScreen.storyboard in Resources */,
 				3F11FE42216E31130003C8A4 /* Assets.xcassets in Resources */,
-				3F11FE40216E31120003C8A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F11FE3D216E31120003C8A4 /* ViewController.swift in Sources */,
+				3F0F289B219329B2004F511B /* CustomSplitViewController.swift in Sources */,
+				3F0F2899219329A6004F511B /* SearchViewController.swift in Sources */,
+				3F11FE3D216E31120003C8A4 /* MasterViewController.swift in Sources */,
 				3F11FE3B216E31120003C8A4 /* AppDelegate.swift in Sources */,
+				3F0F28972193299B004F511B /* DetailViewController.swift in Sources */,
 				2B409509217CA3F0001F822C /* WeatherData.swift in Sources */,
 				2B409507217CA1E1001F822C /* DownloadService.swift in Sources */,
 			);
@@ -304,14 +348,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3F11FE3E216E31120003C8A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F11FE3F216E31120003C8A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3F11FE43216E31130003C8A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
